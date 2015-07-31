@@ -1,0 +1,15 @@
+//$fn=30;
+//for(i=[0:5])
+//for(j=[0:5])
+//translate([i*20,j*20,0])
+intersection(){
+difference(){
+minkowski(){
+cylinder(r=15/2-4,h=24-4,center=true);
+sphere(r=2);}
+cylinder(r=10/2,h=12,center=true);
+cylinder(r=8.5/2,h=100,center=true);
+}
+translate([0,0,-100])
+cube([200,200,200],center=true);
+}

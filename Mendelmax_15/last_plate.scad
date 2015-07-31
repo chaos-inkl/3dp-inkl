@@ -1,0 +1,14 @@
+import("Y_Rod_Mount_2_off.stl");
+translate([0,75,0])
+import("Y_Rod_Mount_2_off.stl");
+translate([25,0,0])
+import("Z_rod_clasp_8mm.stl");
+translate([-25,0,0])
+import("Z_rod_clasp_8mm.stl");
+for(i=[-1,0,1])
+translate([30*i,60,0])
+import("../mendelmax_clip_v10.stl");
+for(i=[-0.5,0.5])
+translate([30*i,90,0])
+rotate(v=[0,0,1],a=180)
+import("../mendelmax_clip_v10.stl");

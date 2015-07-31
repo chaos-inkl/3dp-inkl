@@ -1,0 +1,11 @@
+$fn=60;
+difference(){
+cube([20,80,20],center=true);
+cube([1,100,100],center=true);
+for(i=[-1.5,-0.5,0.5,1.5])
+translate([0,i*17,0])
+{
+cylinder(r=15/2,h=20);
+cylinder(r=9/2,h=40,center=true);
+}
+}
