@@ -25,7 +25,7 @@ difference(){
 	//boardmount muttern
 	for(j=[-1,1])
 		translate([0,j*dist_boardmount/2,0])
-			cylinder($fn=6,r=6.2/2,h=2.4*2,center=true);
+			cylinder($fn=6,r=6.5/2,h=2.4*2,center=true);
 	//alumount
 	translate([0,0,-0.01]) cylinder(r1=5.3/2,r2=5.3,h=5.3);
 	translate([0,-20.2,-0.01]) cylinder(r1=5.3/2,r2=5.3,h=5.3);
