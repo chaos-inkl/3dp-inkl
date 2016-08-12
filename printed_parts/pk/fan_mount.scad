@@ -1,4 +1,9 @@
-//v1.2
+/*
+  Copyright Patrick Koppen
+  v1.2 25.07.2016
+  GPL3
+*/
+
 
 $fn=60;
 
