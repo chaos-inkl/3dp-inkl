@@ -14,6 +14,11 @@ Additional Parts
 
 * [Mounting bracket for LCD display](additional_parts/mounting_bracked_lcd.stl) by Kunsi
 
-  This bracket replaces the top left corner piece of your printer. Fits for [LCD Dot-Matrix-Modul, 4x20 Zeichen, blau](https://www.reichelt.de/?ARTICLE=53952) from Reichelt Elektronik.
+  This bracket replaces the top left corner piece of your printer. Fits for [LCD Dot-Matrix-Modul, 4x20 Zeichen, blau](https://www.reichelt.de/?ARTICLE=53952) from Reichelt Elektronik.<br>
+  SCAD file requires [roundedrect](http://www.thingiverse.com/thing:9347)
+
+* [Mounting plate for Raspberry Pi B+/2/3](additional_parts/mounting_plate_for_raspberry_pi_b+_2_3.stl) by Kunsi
+
+  SCAD file requires [nutsnbolts](https://github.com/JohK/nutsnbolts) and [roundedrect](http://www.thingiverse.com/thing:9347)
 
 All files are also availbale in the [additional_parts](additional_parts/) folder of this repository.
