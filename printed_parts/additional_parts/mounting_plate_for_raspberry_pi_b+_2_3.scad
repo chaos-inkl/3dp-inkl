@@ -1,5 +1,5 @@
-include <../roundedrect.scad>
-include <../nutsnbolts/cyl_head_bolt.scad>
+include <roundedrect.scad>
+include <nutsnbolts/cyl_head_bolt.scad>
 
 $fn=72;
 

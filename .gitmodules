@@ -1,0 +1,3 @@
+[submodule "printed_parts/additional_parts/nutsnbolts"]
+	path = printed_parts/additional_parts/nutsnbolts
+	url = https://github.com/JohK/nutsnbolts
